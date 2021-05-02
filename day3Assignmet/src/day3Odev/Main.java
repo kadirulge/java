@@ -4,12 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		Student kadir = new Student();
-		kadir.id = "1234";
-		//ceren.assigments = "3.gün Ödev 2";
+		kadir.id = "1807";
 		
 		Instructor engin = new Instructor();
-		engin.id ="5678";
-			//engin.lecture = "4.gün 21.30 ders var!";
+		engin.id ="669";
+			
 		
 		UserManager userManager = new UserManager();
 		User[] users = {kadir,engin};
